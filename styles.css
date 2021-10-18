@@ -1,0 +1,56 @@
+/* Full Page*/
+
+body {
+   margin-left: 15%;
+   margin-right: 15%;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Nav*/
+
+nav {
+    border-bottom: 1px solid black;
+    font-size: 180%;
+}
+
+
+
+.navlist {
+    list-style-type: none;
+    display:flex;
+    justify-content:space-between;
+    align-items:center; 
+    text-decoration: none;
+}
+
+.navtext:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/* End of header*/
+
+
+/* H1 */
+
+h1 {
+    text-align: center;
+}
+
+
+/* End of H1 */
+
+
+
+/* Page Specific CSS - Home.html*/
+
+.homepagetitle {
+    width: 100%;
+}
+
+/* Page Specific CSS - END OF Home.html*/
